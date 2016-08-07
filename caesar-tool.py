@@ -3,7 +3,7 @@ import sys
 
 key = 'abcdefghijklmnopqrstuvwxyz'
 
-def encrypt():
+def encrypt(plaintext, shift):
 
     result = ''
 
