@@ -44,7 +44,8 @@ def main():
         decrypted = decrypt(key, ciphertext)
         print("[*] Decrypting...")
         print('[*] Decrypted: %s' % decrypted)
-
+    else:
+		print("[*] Error")
 
 if __name__ == '__main__':
     main()
