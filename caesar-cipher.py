@@ -62,7 +62,7 @@ def main():
         print('[*] Encrypted: %s' % ciphertext)
         print('[*] Decrypted: %s' % decrypted)
     elif mode == 'B':
-        ciphertext = input('Please enter your message: ')
+        ciphertext = input('Please enter your message: ').lower()
         brute(ciphertext)
     else:
         print('Error')
